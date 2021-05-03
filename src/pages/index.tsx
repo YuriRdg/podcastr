@@ -7,7 +7,9 @@ import { format, parseISO } from "date-fns";
 import ptBR from "date-fns/locale/pt-BR";
 
 import { usePlayer } from "../contexts/PlayerContext";
+
 import { api } from "../services/api";
+
 import { convertDurationToTimeString } from "../utils/convertDurationToTimeString";
 
 import styles from "./home.module.scss";
@@ -81,8 +83,8 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
         <table cellSpacing={0}>
           <thead>
             <tr>
-              <th></th>
               <th>Podcast</th>
+              <th></th>
               <th>Integrantes</th>
               <th>Data</th>
               <th>Duração</th>
@@ -131,13 +133,11 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { data } = await api.get("episodes", {
-    params: {
-      _limit: 12,
-      _sort: "published_at",
-      _order: "desc",
-    },
-  });
+  const { data } = await api.get("episodesApi");
+
+  // const data = await fetch("http://localhost:3000/api/episodesApi", {
+  //   method: "GET",
+  // }).then((res) => res.json());
 
   const episodes = data.map((episode) => {
     return {
