@@ -1,9 +1,9 @@
-<h2 align="center"><img src="https://i.imgur.com/KTCIIi2.png" alt="Imagem da logo"></img></h2>
+<p align="center"><img src="https://i.imgur.com/KTCIIi2.png" alt="Imagem da logo"></img></p>
 <h1 align="center">Podcastr - O melhor para você ouvir, sempre</h1>
 
-<h2 align="center">Este é o Podcastr, projeto desenvolvido pela trilha de React durante a Next Level Week 5 da Rocketseat</h2>
+<p align="center">Este é o Podcastr, projeto desenvolvido pela trilha de React durante a Next Level Week 5 da Rocketseat</p>
 
-<h2 align="center"><img src="https://i.imgur.com/oRZJlcO.png" alt="Imagem da logo"></img></h2>
+<p align="center"><img src="https://i.imgur.com/oRZJlcO.png" alt="Imagem da logo"></img></p>
 
 <h1 align="center">Setup</h1>
 
