@@ -145,7 +145,7 @@ export function Player() {
           <button
             type="button"
             disabled={!episode}
-            className={styles.playButton}
+            className={isPlaying ? styles.pauseButton : styles.playButton}
             onClick={togglePlay}
           >
             {isPlaying ? (

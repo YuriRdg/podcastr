@@ -131,7 +131,7 @@
     &.isActive:hover {
       -webkit-filter: brightness(0.6) invert(0.35) sepia(1) saturate(3)
         hue-rotate(100deg);
-              filter: brightness(0.6) invert(0.35) sepia(1) saturate(3)
+      filter: brightness(0.6) invert(0.35) sepia(1) saturate(3)
         hue-rotate(100deg);
     }
 
@@ -140,6 +140,13 @@
       height: 4rem;
       border-radius: 1rem;
       background: var(--purple-400);
+    }
+
+    &.pauseButton {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 1rem;
+      background: var(--purple-800);
     }
 
     &:hover:not(:disabled) {
