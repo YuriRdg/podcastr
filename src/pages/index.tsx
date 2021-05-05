@@ -133,11 +133,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { data } = await api.get("episodesApi");
-
-  // const data = await fetch("http://localhost:3000/api/episodesApi", {
-  //   method: "GET",
-  // }).then((res) => res.json());
+  const { data } = await api.get("episodes");
 
   const episodes = data.map((episode) => {
     return {
