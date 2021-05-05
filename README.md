@@ -6,7 +6,7 @@
 
 <p align="center">Este é o Podcastr, projeto desenvolvido através da trilha de React durante a Next Level Week 5 da Rocketseat</p>
 
-<p align="center"><img src="https://i.imgur.com/oRZJlcO.png" alt="Imagem da logo"></img></p>
+<p align="center"><img src="https://i.imgur.com/oRZJlcO.png" alt="Imagem de apresentação do site"></img></p>
 <p align="center"><img src="https://i.imgur.com/OwwT0ER.png" alt="Imagem de apresentação do site"></img></p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 
 <h1 align="center">Setup</h1>
 
-### Para executar este projeto na sua máquina execute os comandos abaixo:
+Para executar este projeto na sua máquina execute os comandos abaixo:
 
 Para baixar as dependências
 ```bash
